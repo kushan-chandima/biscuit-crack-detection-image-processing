@@ -5,9 +5,10 @@ This application detects surface cracks in biscuits using traditional image proc
 ## Features
 - Real-time crack detection from webcam (selectable input source)
 - Crack overlay in red on detected regions
-- Status label: "Crack Detected" or "No Crack Detected"
+- Status label: "Crack Detected" (bold red) or "No Crack Detected" (bold green) for clear visual feedback
 - Upload images for crack detection
-- Simple PyQt5 user interface
+- Simple, modern PyQt5 user interface with attractive styling
+- Robust error handling for camera selection and initialization
 
 ## Requirements
 - Python 3.7+
@@ -32,12 +33,13 @@ This application detects surface cracks in biscuits using traditional image proc
 
 ## Usage
 - Select the camera source from the dropdown.
-- View live detection results.
+- View live detection results. The status label turns bold red if a crack is detected, and bold green if not.
 - Click "Upload Image" to analyze a photo.
 
 ## Notes
 - The virtual environment folder (`virtual-env-TRADITIONAL/`) is excluded from git.
 - For best results, use a plain background and good lighting.
+- The application now handles camera and timer initialization bugs gracefully.
 
 ---
 
