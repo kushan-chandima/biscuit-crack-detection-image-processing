@@ -1,3 +1,16 @@
+# Results
+
+Below are sample outputs from the application:
+
+**No Crack Detected:**
+![No Crack Detected](screenshots/no_crack.png)
+
+**Crack Detected:**
+![Crack Detected](screenshots/crack_detected.png)
+
+**Camera Locked/Not Available:**
+![Camera Locked](screenshots/camera_locked.png)
+
 
 # Biscuit Crack Detection (Traditional Image Processing)
 
